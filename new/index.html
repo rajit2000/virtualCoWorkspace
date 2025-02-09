@@ -4,12 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            justify-items: center
+    }
+        .btn{
+            margin-top:300px;
+            color: white;
+            background-color: red;
+            border-radius: 5px;
+            padding: 15px 20px 15px 20px;
+        }
+    </style>
 </head>
 <body>
-    <img height="300px" src="/new/image.png" alt="Example Image" usemap="#image-map">
-    <map name="image-map">
-        <!-- <area shape="circle" coords="150,150,100" href="/Home/home.html" alt="Outer Circle"> -->
-        <area shape="circle" coords="150,150,50" href="/Home/home.html" alt="Inner Circle">
-    </map>
+    <div class="container">
+    <form action="Home/home.html">
+        <button class="btn"> Let's Start</button>
+    </form>
+</div>
 </body>
 </html>
